@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+html, body {
+    width: 100vw;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: #f0f0f0;
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+    --mdc-dialog-container-color: white;
+    --mdc-dialog-subhead-color: #6E5B9A;
+    --mdc-dialog-supporting-text-color: #B29CE4;
+    --mdc-dialog-supporting-text-font: "Poppins", sans-serif;
+    --mdc-dialog-subhead-font: "Poppins", sans-serif;
+}
+body { margin: 0; font-family: "Poppins", sans-serif; }
+
+/* Chrome, Edge and Safari */
+*::-webkit-scrollbar {
+    height: 8px;
+    width: 8px;
+  }
+  *::-webkit-scrollbar-track {
+    border-radius: 4px;
+    background-color: #DFE9EB;
+    border: 4px solid #FFFFFF;
+  }
+  
+  *::-webkit-scrollbar-track:hover {
+    background-color: #B8C0C2;
+  }
+  
+  *::-webkit-scrollbar-track:active {
+    background-color: #B8C0C2;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background-color: #C99EE6;
+  }
+  
+  *::-webkit-scrollbar-thumb:hover {
+    background-color: #B76DD7;
+  }
+  
+  *::-webkit-scrollbar-thumb:active {
+    background-color: #7D3AA3;
+  }

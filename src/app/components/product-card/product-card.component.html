@@ -1,0 +1,9 @@
+<div class="card">
+    <div class="content">
+        <div class="img" style="background-image: url({{produto?.linkImg}})"></div>
+        <div class="title">{{produto?.nome}}</div>
+        <div class="brand">{{produto?.marca}}</div>
+        <div class="price">R$ {{produto?.preco | number}}</div>
+    </div>
+    <button class="button" mat-raised-button (click)="openPixDialog()">Presentear</button>
+</div>

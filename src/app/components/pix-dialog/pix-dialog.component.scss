@@ -1,0 +1,36 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.description {
+    margin-bottom: 1.25rem;
+}
+
+.pix {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #42326E;
+}
+
+.button {
+    border-radius: 10px;
+    background-color: #dbcfed !important;
+    color: #6E5B9A !important;
+    display: flex;
+    box-shadow: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+    &:hover {
+        box-shadow: none;
+        background-color: #D7C8ED  !important;
+    }
+}

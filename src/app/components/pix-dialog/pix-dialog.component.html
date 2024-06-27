@@ -1,0 +1,15 @@
+<h2 mat-dialog-title>Deus abençoooe!!</h2>
+<mat-dialog-content>
+    <div class="content">
+        <div class="description">Saiba que estamos muito contentes com a sua ajuda e com certeza você contribuiu para
+            realizarmos nosso sonho!</div>
+            <div class="pix">
+                QR Code do pix!
+                <qrcode [qrdata]="payload" [width]="250"></qrcode>
+                <button class="button" mat-button (click)="copyPix()">Copiar pix</button>
+            </div>
+    </div>
+</mat-dialog-content>
+<mat-dialog-actions>
+    <button mat-button mat-dialog-close>Fechar</button>
+</mat-dialog-actions>

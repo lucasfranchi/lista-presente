@@ -1,0 +1,26 @@
+<div class="lf-main-photo-container">
+  <div class="lf-main-image">
+    <div class="lf-main-image__text">
+      <div class="lf-main-image__text__title">
+        <p class="lf-main-image__text__title__name">Lucas & Rebeca</p> 
+        <p class="lf-main-image__text__title__date">05.04.2025</p>
+        <p class="lf-main-image__text__description">
+          Bem-vindos ao nosso cantinho especial!<br><br>
+          É com imensa alegria que compartilhamos com vocês este momento único de nossas vidas. Estamos prestes a dar o próximo passo na nossa jornada juntos, e nada seria tão especial sem a presença e o carinho de cada um de vocês.<br><br>
+          Este site foi criado com muito amor para que vocês possam fazer parte desse capítulo especial conosco. Aqui vocês encontrarão nossa lista de presentes, repleta de itens que ajudarão a construir nosso lar e nossas memórias futuras.<br><br>
+          Agradecemos desde já por todo o amor e apoio que têm nos dado. Cada gesto de carinho é um presente por si só, e estamos gratos por compartilhar este momento tão especial com pessoas tão queridas.<br><br>
+          Vamos juntos celebrar o amor e a amizade. Sejam bem-vindos ao nosso site de lista de presentes de casamento!
+        </p>
+      </div>
+    </div>
+  </div>
+  
+</div>
+<div class="lf-main-product-container">
+  <p class="lf-main-product-container__title">Lista de Presentes!!</p>
+  <div class="lf-main-product-list">
+    @for (produto of listaPresentes; track $index) {
+      <lp-product-card [produto]="produto"></lp-product-card>
+    }
+  </div>
+</div> 
